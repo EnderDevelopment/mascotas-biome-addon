@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "eden:ninfa_plata_recesivo",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/ave/plata_recesivo" },
+      "geometry": { "default": "geometry.eden_ave" },
+      "animations": { "flap": "animation.eden_ave.flap" },
+      "scripts": { "animate": [ "flap" ] },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": { "base_color": "#C2C8CF", "overlay_color": "#969EA9" }
+    }
+  }
+}

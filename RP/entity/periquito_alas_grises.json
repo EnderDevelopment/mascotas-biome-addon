@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "eden:periquito_alas_grises",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/ave/alas_grises" },
+      "geometry": { "default": "geometry.eden_ave" },
+      "animations": { "flap": "animation.eden_ave.flap" },
+      "scripts": { "animate": [ "flap" ] },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": { "base_color": "#9AA5AD", "overlay_color": "#6B7680" }
+    }
+  }
+}

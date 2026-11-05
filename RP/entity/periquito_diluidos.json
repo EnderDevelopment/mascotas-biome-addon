@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "eden:periquito_diluidos",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/ave/diluidos" },
+      "geometry": { "default": "geometry.eden_ave" },
+      "animations": { "flap": "animation.eden_ave.flap" },
+      "scripts": { "animate": [ "flap" ] },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": { "base_color": "#C9E1F0", "overlay_color": "#A8C8D8" }
+    }
+  }
+}

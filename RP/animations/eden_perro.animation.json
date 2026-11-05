@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.eden_perro.walk": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "leg0": { "rotation": { "x": { "timeline": { "0.0": 0, "0.25": 45, "0.5": 0, "0.75": -45, "1.0": 0 } } } },
+        "leg1": { "rotation": { "x": { "timeline": { "0.0": 0, "0.25": -45, "0.5": 0, "0.75": 45, "1.0": 0 } } } },
+        "leg2": { "rotation": { "x": { "timeline": { "0.0": 0, "0.25": -45, "0.5": 0, "0.75": 45, "1.0": 0 } } } },
+        "leg3": { "rotation": { "x": { "timeline": { "0.0": 0, "0.25": 45, "0.5": 0, "0.75": -45, "1.0": 0 } } } }
+      }
+    },
+    "animation.eden_perro.look_at_target": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "head": { "rotation": { "x": ["query.head_x_rotation"], "y": ["query.head_y_rotation"] } }
+      }
+    }
+  }
+}

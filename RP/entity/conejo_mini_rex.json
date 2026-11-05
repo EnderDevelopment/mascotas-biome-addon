@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "eden:conejo_mini_rex",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/mamifero/conejo_mini_rex" },
+      "geometry": { "default": "geometry.eden_mamifero" },
+      "animations": { "walk": "animation.eden_mamifero.walk" },
+      "scripts": { "animate": [ {"walk": "query.modified_move_speed"} ] },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": { "base_color": "#A89878", "overlay_color": "#6B4A3A" }
+    }
+  }
+}

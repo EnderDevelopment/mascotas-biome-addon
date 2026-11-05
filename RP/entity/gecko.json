@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "eden:gecko",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/gecko/gecko" },
+      "geometry": { "default": "geometry.eden_gecko" },
+      "animations": { "walk": "animation.eden_gecko.walk", "climb": "animation.eden_gecko.climb" },
+      "scripts": { "animate": [ {"walk": "query.modified_move_speed"}, "climb" ] },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": { "base_color": "#6BA85A", "overlay_color": "#3E7A3A" }
+    }
+  }
+}

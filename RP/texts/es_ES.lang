@@ -1,0 +1,77 @@
+entity.eden:perro_border_collie.name=Perro Border Collie
+entity.eden:perro_pastor_aleman.name=Perro Pastor Alemán
+entity.eden:perro_yorkshire_terrier.name=Perro Yorkshire Terrier
+entity.eden:perro_beagle.name=Perro Beagle
+entity.eden:perro_pug.name=Perro Pug
+entity.eden:perro_golden_retriever.name=Perro Golden Retriever
+entity.eden:perro_labrador_retriever.name=Perro Labrador Retriever
+entity.eden:perro_cocker_spaniel.name=Perro Cocker Spaniel
+
+entity.eden:gato_persa.name=Gato Persa
+entity.eden:gato_exotico_pelo_corto.name=Gato Exótico de Pelo Corto
+entity.eden:gato_maine_coon.name=Gato Maine Coon
+entity.eden:gato_bosque_noruega.name=Gato Bosque de Noruega
+entity.eden:gato_siberiano.name=Gato Siberiano
+entity.eden:gato_neva_masquerade.name=Gato Neva Masquerade
+entity.eden:gato_ragdoll.name=Gato Ragdoll
+entity.eden:gato_sagrado_birmania.name=Gato Sagrado de Birmania
+entity.eden:gato_american_curl.name=Gato American Curl
+
+entity.eden:periquito_azul_opalino.name=Periquito Azul Opalino
+entity.eden:periquito_verde_perlado.name=Periquito Verde Perlado
+entity.eden:periquito_monudo.name=Periquito Moñudo
+entity.eden:periquito_diluidos.name=Periquito Diluidos
+entity.eden:periquito_verde_ancestral.name=Periquito Verde Ancestral
+entity.eden:periquito_azul_cara_amarilla.name=Periquito Azul Cara Amarilla
+entity.eden:periquito_alas_grises.name=Periquito Alas Grises
+entity.eden:periquito_arlequin_verde_laurel.name=Periquito Arlequín Verde Laurel
+
+entity.eden:ninfa_lutina.name=Ninfa Lutina
+entity.eden:ninfa_perlada.name=Ninfa Perlada
+entity.eden:ninfa_arlequin_plata_recesiva.name=Ninfa Arlequín Plata Recesiva
+entity.eden:ninfa_plata_dominante.name=Ninfa Plata Dominante
+entity.eden:ninfa_plata_recesivo.name=Ninfa Plata Recesivo
+
+entity.eden:guacamayo_escarlata.name=Guacamayo Escarlata
+entity.eden:guacamayo_aliverde.name=Guacamayo Aliverde
+entity.eden:guacamayo_militar.name=Guacamayo Militar
+entity.eden:guacamayo_de_lear.name=Guacamayo de Lear
+entity.eden:guacamayo_de_barba_azul.name=Guacamayo de Barba Azul
+entity.eden:guacamayo_ambiguo.name=Guacamayo Ambiguo
+entity.eden:guacamayo_de_frente_roja.name=Guacamayo de Frente Roja
+entity.eden:guacamayo_severo.name=Guacamayo Severo
+entity.eden:guacamayo_noble.name=Guacamayo Noble
+entity.eden:guacamayo_de_vientre_rojo.name=Guacamayo de Vientre Rojo
+entity.eden:guacamayo_lutino.name=Guacamayo Lutino
+
+entity.eden:loro_cotorra_tirba.name=Cotorra Tirba
+entity.eden:loro_cotorra_molina.name=Cotorra de Molina
+entity.eden:loro_cotorra_vientre_azul.name=Cotorra de Vientre Azul
+entity.eden:loro_cabeciazul.name=Loro Cabeciazul
+entity.eden:loro_maximilian.name=Loro de Maximilian
+entity.eden:loro_coroniblanco.name=Loro Coroniblanco
+entity.eden:loro_cotorra_del_sol.name=Cotorra del Sol
+entity.eden:loro_yaco.name=Loro Yaco
+entity.eden:loro_senegal.name=Loro de Senegal
+entity.eden:agapornis.name=Agapornis
+entity.eden:paloma.name=Paloma
+
+entity.eden:hamster_ruso.name=Hámster Ruso
+entity.eden:hamster_roborovski.name=Hámster Roborovski
+entity.eden:hamster_campbell.name=Hámster Campbell
+entity.eden:hamster_chino.name=Hámster Chino
+entity.eden:huron_blanco_ojos_oscuros.name=Hurón Blanco de Ojos Oscuros
+entity.eden:huron_champan.name=Hurón Champán
+entity.eden:huron_chocolate.name=Hurón Chocolate
+entity.eden:huron_canela.name=Hurón Canela
+entity.eden:huron_siames.name=Hurón Siamés
+entity.eden:huron_panda.name=Hurón Panda
+entity.eden:conejo_enano_holandes.name=Conejo Enano Holandés
+entity.eden:conejo_belier_lop.name=Conejo Belier (Lop)
+entity.eden:conejo_cabeza_de_leon.name=Conejo Cabeza de León
+entity.eden:conejo_mini_rex.name=Conejo Mini Rex
+entity.eden:conejo_angora.name=Conejo Angora
+entity.eden:cobaya.name=Cobaya
+entity.eden:chinchilla.name=Chinchilla
+
+entity.eden:gecko.name=Gecko

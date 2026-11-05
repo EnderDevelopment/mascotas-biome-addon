@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "eden:periquito_verde_perlado",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/ave/verde_perlado" },
+      "geometry": { "default": "geometry.eden_ave" },
+      "animations": { "flap": "animation.eden_ave.flap" },
+      "scripts": { "animate": [ "flap" ] },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": { "base_color": "#DCE8C8", "overlay_color": "#5A9440" }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "eden:huron_siames",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/mamifero/huron_siames" },
+      "geometry": { "default": "geometry.eden_mamifero" },
+      "animations": { "walk": "animation.eden_mamifero.walk" },
+      "scripts": { "animate": [ {"walk": "query.modified_move_speed"} ] },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": { "base_color": "#F0EBDD", "overlay_color": "#6B4A3A" }
+    }
+  }
+}

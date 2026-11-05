@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Mascotas del Bioma (RP)",
+    "description": "Addon de mascotas domésticas clasificadas por biomas - Paquete de recursos",
+    "uuid": "a1111111-2222-3333-4444-555555555500",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "a1111111-2222-3333-4444-555555555501",
+      "version": [1, 0, 0]
+    }
+  ]
+}

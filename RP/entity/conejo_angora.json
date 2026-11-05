@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "eden:conejo_angora",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/mamifero/conejo_angora" },
+      "geometry": { "default": "geometry.eden_mamifero" },
+      "animations": { "walk": "animation.eden_mamifero.walk" },
+      "scripts": { "animate": [ {"walk": "query.modified_move_speed"} ] },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": { "base_color": "#F5F5F0", "overlay_color": "#D8D0C0" }
+    }
+  }
+}

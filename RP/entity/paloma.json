@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "eden:paloma",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/ave/paloma" },
+      "geometry": { "default": "geometry.eden_ave" },
+      "animations": { "flap": "animation.eden_ave.flap" },
+      "scripts": { "animate": [ "flap" ] },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": { "base_color": "#C8C9CC", "overlay_color": "#8A8B8E" }
+    }
+  }
+}

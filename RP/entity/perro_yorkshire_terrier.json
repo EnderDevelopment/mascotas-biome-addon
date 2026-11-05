@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "eden:perro_yorkshire_terrier",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/perro/yorkshire_terrier" },
+      "geometry": { "default": "geometry.eden_perro" },
+      "animations": {
+        "walk": "animation.eden_perro.walk",
+        "look_at_target": "animation.eden_perro.look_at_target"
+      },
+      "scripts": {
+        "animate": [ {"walk": "query.modified_move_speed"}, "look_at_target" ]
+      },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": { "base_color": "#3B3B3B", "overlay_color": "#9C7B4D" }
+    }
+  }
+}

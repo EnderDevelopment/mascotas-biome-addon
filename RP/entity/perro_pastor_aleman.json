@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "eden:perro_pastor_aleman",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/perro/pastor_aleman" },
+      "geometry": { "default": "geometry.eden_perro" },
+      "animations": {
+        "walk": "animation.eden_perro.walk",
+        "look_at_target": "animation.eden_perro.look_at_target"
+      },
+      "scripts": {
+        "animate": [ {"walk": "query.modified_move_speed"}, "look_at_target" ]
+      },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": { "base_color": "#4A4A4A", "overlay_color": "#2B2B2B" }
+    }
+  }
+}

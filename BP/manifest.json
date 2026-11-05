@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Mascotas del Bioma (BP)",
+    "description": "Addon de mascotas domésticas clasificadas por biomas - Paquete de comportamiento",
+    "uuid": "11111111-2222-3333-4444-555555555501",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "11111111-2222-3333-4444-555555555502",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "a1111111-2222-3333-4444-555555555500",
+      "version": [1, 0, 0]
+    }
+  ]
+}

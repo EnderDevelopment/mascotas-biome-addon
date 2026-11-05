@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "eden:perro_golden_retriever",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/perro/golden_retriever" },
+      "geometry": { "default": "geometry.eden_perro" },
+      "animations": {
+        "walk": "animation.eden_perro.walk",
+        "look_at_target": "animation.eden_perro.look_at_target"
+      },
+      "scripts": {
+        "animate": [ {"walk": "query.modified_move_speed"}, "look_at_target" ]
+      },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": { "base_color": "#EFC88F", "overlay_color": "#D9A35F" }
+    }
+  }
+}

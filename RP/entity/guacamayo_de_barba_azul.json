@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "eden:guacamayo_de_barba_azul",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/ave/de_barba_azul" },
+      "geometry": { "default": "geometry.eden_ave" },
+      "animations": { "flap": "animation.eden_ave.flap" },
+      "scripts": { "animate": [ "flap" ] },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": { "base_color": "#3A7BD0", "overlay_color": "#2E5FA8" }
+    }
+  }
+}

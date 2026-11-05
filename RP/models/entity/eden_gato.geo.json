@@ -1,0 +1,70 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.eden_gato",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2,
+        "visible_bounds_offset": [0, 1, 0]
+      },
+      "bones": [
+        {
+          "name": "body",
+          "pivot": [0, 8, 0],
+          "cubes": [
+            { "origin": [-3, 6, -5], "size": [6, 5, 9], "uv": [4, 4] }
+          ]
+        },
+        {
+          "name": "head",
+          "pivot": [0, 11, -5],
+          "cubes": [
+            { "origin": [-2.5, 9, -9], "size": [5, 5, 5], "uv": [0, 18] }
+          ]
+        },
+        {
+          "name": "ear0",
+          "pivot": [-2, 14, -6],
+          "cubes": [
+            { "origin": [-2.5, 13, -7.5], "size": [1.5, 2, 1], "uv": [20, 24] }
+          ]
+        },
+        {
+          "name": "ear1",
+          "pivot": [2, 14, -6],
+          "cubes": [
+            { "origin": [1, 13, -7.5], "size": [1.5, 2, 1], "uv": [20, 24] }
+          ]
+        },
+        {
+          "name": "leg0",
+          "pivot": [-1, 7, 3],
+          "cubes": [ { "origin": [-2, 0, 2], "size": [2, 6, 2], "uv": [0, 30] } ]
+        },
+        {
+          "name": "leg1",
+          "pivot": [1, 7, 3],
+          "cubes": [ { "origin": [0, 0, 2], "size": [2, 6, 2], "uv": [0, 30] } ]
+        },
+        {
+          "name": "leg2",
+          "pivot": [-1, 7, -3],
+          "cubes": [ { "origin": [-2, 0, -4], "size": [2, 6, 2], "uv": [0, 30] } ]
+        },
+        {
+          "name": "leg3",
+          "pivot": [1, 7, -3],
+          "cubes": [ { "origin": [0, 0, -4], "size": [2, 6, 2], "uv": [0, 30] } ]
+        },
+        {
+          "name": "tail",
+          "pivot": [0, 10, 4],
+          "cubes": [ { "origin": [-1, 10, 4], "size": [2, 2, 5], "uv": [30, 18] } ]
+        }
+      ]
+    }
+  ]
+}

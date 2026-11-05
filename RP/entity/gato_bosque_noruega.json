@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "eden:gato_bosque_noruega",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/gato/bosque_noruega" },
+      "geometry": { "default": "geometry.eden_gato" },
+      "animations": {
+        "walk": "animation.eden_gato.walk",
+        "look_at_target": "animation.eden_gato.look_at_target"
+      },
+      "scripts": {
+        "animate": [ {"walk": "query.modified_move_speed"}, "look_at_target" ]
+      },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": { "base_color": "#9A8C7A", "overlay_color": "#4A4238" }
+    }
+  }
+}
